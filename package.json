@@ -1,16 +1,30 @@
 {
   "name": "@tonbul/env-parser",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple typescript compliant environment variable parser ",
   "main": "lib/index",
   "typings": "lib/index",
   "scripts": {
     "test": "jest",
     "build": "tsc -p ."
   },
-  "keywords": [],
-  "author": "",
+  "author": "ali tonbul",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AliTonbul/env-parser.git"
+  },
+  "keywords": [
+    "env",
+    "parser",
+    "streams",
+    "streaming",
+    ".env",
+    "ENV",
+    "process",
+    "process.env"
+  ],
+  "homepage": "https://github.com/AliTonbul/env-parser",
   "devDependencies": {
     "@babel/preset-env": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
@@ -19,5 +33,8 @@
     "jest": "^28.1.2",
     "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "^12.17.0 || 13.x || 14.x || 15.x || 16.x || 17.x"
   }
 }

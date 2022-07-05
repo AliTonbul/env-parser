@@ -1,0 +1,23 @@
+{
+  "name": "@tonbul/env-parser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index",
+  "typings": "lib/index",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.1",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}

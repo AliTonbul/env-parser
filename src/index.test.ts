@@ -1,6 +1,6 @@
 "use strict";
 
-import env from "./env";
+import env from "./index";
 
 describe("env parser", () => {
   describe("env without cast", () => {

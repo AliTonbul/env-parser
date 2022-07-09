@@ -1,6 +1,6 @@
 {
   "name": "@tonbul/env-parser",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple typescript compliant environment variable parser ",
   "main": "lib/index.js",
   "typings": "lib/index.d.js",
